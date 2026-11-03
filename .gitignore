@@ -1,0 +1,19 @@
+# Bỏ qua thư mục cấu hình cá nhân của IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.mvn/
+
+# Bỏ qua thư mục build của Java/Maven/Gradle
+**/target/
+**/build/
+**/bin/
+
+# Bỏ qua thư mục node_modules khi An hoặc bạn làm Frontend sau này
+**/node_modules/
+**/dist/
+
+# Bỏ qua các file hệ thống khác
+.DS_Store
+Thumbs.db
